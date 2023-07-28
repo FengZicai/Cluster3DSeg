@@ -1,0 +1,32 @@
+data:
+  num_classes: 19
+  ignore_label: 255
+  training_size: 23203
+
+train:
+  seed: 1588147245
+  deterministic: False
+
+dataset:
+  name: semantic_kitti
+  root: ../Your/dataset/path/sequences/
+  num_points: 80000
+  voxel_size: 0.05
+  submit_to_server: True
+
+num_epochs: 15
+batch_size: 4
+
+criterion:
+  name: cross_entropy
+  ignore_index: 255
+
+optimizer:
+  name: sgd
+  lr: 0.0024
+  weight_decay: 1.0e-4
+  momentum: 0.9
+  nesterov: true
+
+scheduler:
+  name: cosine_warmup
