@@ -111,5 +111,5 @@ If you find the code useful in your research, please consider citing our [paper]
 Any comments, please email: feng.tuo@student.uts.edu.au.
 
 ## Acknowledgments
-We thanks for the opensource codebases, [ProtoSeg](https://github.com/tfzhou/ProtoSeg), [self-label](https://github.com/yukimasano/self-label) and [SPVNAS](https://github.com/mit-han-lab/spvnas). 
+We thanks for the opensource codebases, [ProtoSeg](https://github.com/tfzhou/ProtoSeg), [self-label](https://github.com/yukimasano/self-label), and [SPVNAS](https://github.com/mit-han-lab/spvnas). 
 
